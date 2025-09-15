@@ -4,4 +4,4 @@ service vendor-qti-media-c2audio-hal-1-0 /vendor/bin/hw/vendor.qti.media.c2audio
     group mediadrm camera drmrpc system
     ioprio rt 4
     task_profiles ProcessCapacityHigh
-
+    onrestart restart vendor-qti-media-c2-hal-1-0
